@@ -1,0 +1,181 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.logo {
+  display: flex;
+  justify-self: left;
+  position: fixed;
+  top: 1vh;
+  left: 1vw;
+  z-index: 2;
+}
+
+.navbar {
+  display: flex;
+  justify-self: right;
+  position: fixed;
+  top: 2vh;
+  right: 2vw;
+  z-index: 2;
+}
+
+.navbar h3 {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: inline-block;
+  color: white;
+}
+
+.pageTitle {
+  position: relative;
+  height: 100vh;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-height: 100vh;
+  width: 100vw;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.socials a {
+  margin: 0 5px; /* Adjust spacing between social icons */
+}
+
+.home1 {
+  background-color: navy;
+  display: flex;
+  padding: 2rem;
+  text-align: center;
+  border-color: navy;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.home1 img {
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.tileContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about1{
+  background-color: rgb(96, 125, 229);
+  border-radius: 50px;
+}
+
+.about1 img {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.row p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.people1 {
+  display: flex;
+}
+.photocard {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.photocard img {
+  border-radius: 15px;
+}
+
+.hire1 {
+  background-color: navy;
+  display: flex;
+  text-align: center;
+  border-color: navy;
+  border-style: solid;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.hire1 h3 {
+  text-align: left; 
+}
+
+.hire1 p {
+  text-align: left;
+}
+
+.audition1 {
+  background-color: navy;
+  display: flex;
+  padding: 2rem;
+  text-align: center;
+  border-color: navy;
+  border-style: solid;
+  border-radius: 10px;
+}
